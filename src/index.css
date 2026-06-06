@@ -1,0 +1,136 @@
+/* .student table{
+    font-size: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.student th, .student td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.student th{
+    width: 100px;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Google Sans', sans-serif;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h3{
+    margin: 10px 0;
+}
+
+h6{
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+p{
+    text-align:center;
+    line-height: 21px;
+    font-size: 14px;
+
+}
+
+.card-container{
+    background-color: #d36e6e;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+    color: white;
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.pro{
+    color: #000000;
+    background-color: #e82b2b;
+    border-radius: 3px;
+    padding: 3px 7px;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    top:20px;
+    left:10px;
+}
+
+.online{
+    background-color: greenyellow;
+}
+
+.offline{
+    background-color: #febb0b;
+} 
+
+.img{
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 20%;
+    padding: 5px;
+    object-fit: contain;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+button.primary{
+    background-color: #e82b2b;  
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-weight: 500;
+    padding: 10px 25px;
+}
+
+button.primary.outline{
+    background-color: transparent;
+}
+
+.skills{
+    background-color: rgb(227, 150, 50);
+    text-align: left;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.skills ul{
+    list-style-type: none;
+    margin :0;
+    padding: 0;
+}
+
+.skills ul li{
+        border: 1px solid rgb(150, 139, 139);
+        display: inline-block;
+        border-radius: 2px;
+        padding: 6px;
+        margin: 0 7px 7px 0;
+        font-size: 12px;
+}

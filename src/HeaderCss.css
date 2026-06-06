@@ -1,0 +1,15 @@
+.title{
+    font-size: 30px;
+    color: blueviolet;
+}
+.quotes{
+    font-style: italic;
+    color: blue;
+}
+.code{
+    color: brown;
+}
+
+.error{
+    color: red;
+}

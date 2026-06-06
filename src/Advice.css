@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+
+*{
+    font-family: "Arimo", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blanchedalmond;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    color: black;
+    text-align: center;
+    width: 500px;      /* Fixed width */
+    padding: 20px;
+}
+
+div h2{
+    margin-bottom: 5px;
+}
+
+div h3{
+    font-size: 20px;
+    min-height: 80px; /* Keeps button from moving */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div button{
+    border: none;
+    background-color: aquamarine;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.advice-container{
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+p{
+    margin-top: 15px;
+    font-size: 18px;
+
+}
+p b{
+    color: brown;
+    background-color: rgb(255, 162, 49);
+    border-radius: 5px;
+    padding: 3px 3px;
+}
