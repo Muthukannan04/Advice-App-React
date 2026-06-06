@@ -1,16 +1,69 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Advice App React
 
-Currently, two official plugins are available:
+A simple React application that fetches random advice from the Advice Slip API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+🔗 Live Website: https://jolly-kleicha-e574b3.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Get random advice from an API
+* React Hooks (useState, useEffect)
+* Responsive UI
+* Simple and beginner-friendly project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+* React.js
+* JavaScript (ES6+)
+* CSS3
+* Vite
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Muthukannan04/Advice-App-React.git
+```
+
+### Navigate to Project Folder
+
+```bash
+cd Advice-App-React
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run the Project
+
+```bash
+npm run dev
+```
+
+Open the URL shown in the terminal (usually http://localhost:5173).
+
+## Project Structure
+
+```text
+src/
+│
+├── AdviceApp.jsx
+├── Advice.css
+├── App.jsx
+└── main.jsx
+```
+
+## Author
+
+Muthukannan
+
+GitHub: https://github.com/Muthukannan04
+
