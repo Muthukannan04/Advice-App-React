@@ -6,7 +6,7 @@ A simple React application that fetches random advice from the Advice Slip API.
 
 ## Live Demo
 
-🔗 Live Website: https://jolly-kleicha-e574b3.netlify.app/
+🔗 Live Website: https://muthukannan-advice-app-react.netlify.app/
 
 ## Features
 
